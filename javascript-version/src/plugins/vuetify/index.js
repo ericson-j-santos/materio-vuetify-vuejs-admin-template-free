@@ -14,7 +14,9 @@ export default function (app) {
       IconBtn: VBtn,
     },
     defaults,
-    icons,
+    icons: {
+      defaultSet: 'mdi',
+    },
     theme: {
       defaultTheme: 'light',
       themes,

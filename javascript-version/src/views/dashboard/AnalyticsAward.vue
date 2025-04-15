@@ -7,28 +7,25 @@ import trophy from '@images/misc/trophy.png'
     <VCardText>
       <div class="mb-2">
         <h5 class="text-h5">
-          Congratulations John! <span class="text-high-emphasis">🎉</span>
+          Parabéns John! <span class="text-high-emphasis">🎉</span>
         </h5>
         <div class="text-body-1">
-          Best seller of the month
+          Melhor vendedor do mês
         </div>
       </div>
       <h4 class="text-h4 text-primary">
         $42.8k
       </h4>
       <div class="text-body-1 mb-2">
-        78% of target <span class="text-high-emphasis">🚀</span>
+        78% do objetivo <span class="text-high-emphasis">🚀</span>
       </div>
       <VBtn size="small">
-        View Sales
+        Visualização das vendas
       </VBtn>
     </VCardText>
 
     <!-- Trophy -->
-    <VImg
-      :src="trophy"
-      class="trophy"
-    />
+    <VImg :src="trophy" class="trophy" />
   </VCard>
 </template>
 

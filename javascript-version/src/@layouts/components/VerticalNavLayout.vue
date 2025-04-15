@@ -1,3 +1,4 @@
+<!-- src/@layouts/components/VerticalNavLayout.vue -->
 <script>
 import { useDisplay } from 'vuetify'
 import VerticalNav from '@layouts/components/VerticalNav.vue'
@@ -14,7 +15,7 @@ export default defineComponent({
     // ℹ️ This is alternative to below two commented watcher
     // We want to show overlay if overlay nav is visible and want to hide overlay if overlay is hidden and vice versa.
     syncRef(isOverlayNavActive, isLayoutOverlayVisible)
-    
+
     return () => {
       // 👉 Vertical nav
       const verticalNav = h(VerticalNav, { isOverlayNavActive: isOverlayNavActive.value, toggleIsOverlayNavActive }, {
@@ -73,7 +74,7 @@ export default defineComponent({
 @use "@layouts/styles/mixins";
 
 .layout-wrapper.layout-nav-type-vertical {
-  // TODO(v2): Check why we need height in vertical nav & min-height in horizontal nav
+  // TODO(v2): Verifique por que precisamos de altura na navegação vertical e altura mínima na navegação horizontal
   block-size: 100%;
 
   .layout-content-wrapper {

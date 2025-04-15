@@ -1,7 +1,7 @@
 /**
- * This is helper function to register plugins like a nuxt
- * To register a plugin just export a const function `defineVuePlugin` that takes `app` as argument and call `app.use`
- * For Scanning plugins it will include all files in `src/plugins` and `src/plugins/**\/index.ts`
+ * Esta é uma função auxiliar para registrar plugins como um nuxt
+ * Para registrar um plugin, basta exportar uma função const `defineVuePlugin` que recebe `app` *como argumento e chama `app.use`
+ * Para escanear plugins, ele incluirá todos os arquivos em `src/plugins` e `src/plugins/**\/*index.ts`
  *
  *
  * @param {App} app Vue app instance

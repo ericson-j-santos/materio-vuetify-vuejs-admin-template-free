@@ -1,13 +1,13 @@
 <script setup>
 const recentDevices = ref([
   {
-    type: 'New for you',
+    type: 'Novo para voce',
     email: true,
     browser: true,
     app: true,
   },
   {
-    type: 'Account activity',
+    type: 'Atividade da conta',
     email: true,
     browser: true,
     app: true,
@@ -19,45 +19,42 @@ const recentDevices = ref([
     app: false,
   },
   {
-    type: 'A new device is linked',
+    type: 'Um novo dispositivo esta conectado',
     email: true,
     browser: false,
     app: false,
   },
 ])
 
-const selectedNotification = ref('Only when I\'m online')
+const selectedNotification = ref('Somente quando eu estiver online')
 </script>
 
 <template>
   <VCard title="Recent Devices">
     <VCardText>
-      We need permission from your browser to show notifications.
-      <a href="javascript:void(0)">Request Permission</a>
+      Precisamos da permissão do seu navegador para mostrar notificações.
+      <a href="javascript:void(0)">Request Permissão</a>
     </VCardText>
 
     <VTable class="text-no-wrap">
       <thead>
         <tr>
           <th scope="col">
-            Type
+            Tipo
           </th>
           <th scope="col">
             EMAIL
           </th>
           <th scope="col">
-            BROWSER
+            NAVEGADOR
           </th>
           <th scope="col">
-            App
+            Aplicação
           </th>
         </tr>
       </thead>
       <tbody>
-        <tr
-          v-for="device in recentDevices"
-          :key="device.type"
-        >
+        <tr v-for="device in recentDevices" :key="device.type">
           <td>
             {{ device.type }}
           </td>
@@ -76,34 +73,23 @@ const selectedNotification = ref('Only when I\'m online')
     <VDivider />
 
     <VCardText>
-      <VForm @submit.prevent="() => {}">
+      <VForm @submit.prevent="() => { }">
         <p class="text-base font-weight-medium">
-          When should we send you notifications?
+          Quando devemos enviar notificações a você?
         </p>
 
         <VRow>
-          <VCol
-            cols="12"
-            sm="6"
-          >
-            <VSelect
-              v-model="selectedNotification"
-              mandatory
-              :items="['Only when I\'m online', 'Anytime']"
-            />
+          <VCol cols="12" sm="6">
+            <VSelect v-model="selectedNotification" mandatory :items="['Only when I\'m online', 'Anytime']" />
           </VCol>
         </VRow>
 
         <div class="d-flex flex-wrap gap-4 mt-4">
           <VBtn type="submit">
-            Save Changes
+            Salvar alterações
           </VBtn>
-          <VBtn
-            color="secondary"
-            variant="outlined"
-            type="reset"
-          >
-            Reset
+          <VBtn color="secondary" variant="outlined" type="reset">
+            Reiniciar
           </VBtn>
         </div>
       </VForm>

@@ -1,14 +1,14 @@
-<!-- Available h3 headings: Added, Fixed, Updated, Removed, Deprecated -->
+<!-- Cabeçalhos h3 disponíveis: Adicionados, corrigidos, atualizados, removidos, obsoletos -->
 
 # Changelog
 
-All notable changes to this template will be documented in this file
+Todas as alterações notáveis ​​neste modelo serão documentadas neste arquivo
 
 ## v2.2.2 (2024-07-29)
 
 ### Updated
 
-- Updated all the libraries to the latest version
+- Atualizou todas as bibliotecas para a versão mais recente
 
 ## v2.2.1 (2024-01-05)
 
@@ -19,28 +19,28 @@ All notable changes to this template will be documented in this file
 
 ## v2.2.0 (2024-01-04)
 
-### Updated
+### Atualizadas
 
-- Updated all dependencies and devDependencies to latest
+- Atualizadas todas as dependências e devDependencies para as mais recentes
 
-### Added
+### Adicionados
 
-- Added Remix Icons
+- Adicionados Remix Icons
 
-### Removed
+### Removido
 
-- Material Design icons removed
+- Material Design icons Removido
 
 ## v2.1.0 (2023-05-26)
 
-### Updated
+### Atualizadas
 
-- Updated repo according to pro template
-- Use Vuetify's official release instead of BETA
+- Repositório atualizado de acordo com o modelo profissional
+- Use o lançamento oficial do Vuetify em vez do BETA
 
 ## v2.0.0 (2022-10-15)
 
-### Added
+### Adicionados
 
 - Vue 3 version added
 - Vuetify 3 support added
@@ -48,7 +48,7 @@ All notable changes to this template will be documented in this file
 
 ## v1.0.3 (2021-11-12)
 
-### Updated
+### Atualizadas
 
 - Updated [@vue/composition-api](https://github.com/vuejs/composition-api) package to v1.3.3 to mitigate composition api error
 
@@ -56,7 +56,7 @@ All notable changes to this template will be documented in this file
 
 ### Fixed
 
-- broken links updated in footer
+- links quebrados atualizados no rodapé
 
 ## Updates
 
@@ -67,7 +67,7 @@ All notable changes to this template will be documented in this file
 
 ### Fixed
 
-- Fixed missing fonts + branding updated
+- Fontes ausentes corrigidas + marca atualizada
 
 ### Updated
 
@@ -78,4 +78,4 @@ All notable changes to this template will be documented in this file
 
 ### Added
 
-- Initial Release
+- Lançamento inicial
